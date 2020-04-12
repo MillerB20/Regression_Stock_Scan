@@ -1,6 +1,8 @@
 # Regression_Stock_Scan
 (My first Python project) Web scrape stock data and run statistical analysis
 
+Currently this project needs to be updated to work with a change in the Yahoo finance website. The code will fail to scrape the financials page from the website and fail. 
+
 I want to describe the project I recently completed. I used Python to web-scrape a great deal of financial data from the stock market to perform a statistical analysis of stocks I will consider adding to my personal investment portfolio. My Python program scans and filters hundreds of thousands of rows of data, assigns a weighted score system, and returns to me with the top 20 stocks. The score system is predominantly a modified linear regression slope of the last 90 days of closing prices. I will briefly describe what I did.
 
 To start I scan over 20,000 stocks on GuruFocus.com to gather all stocks between $15 and $100. Because I do not have that much money in my portfolio, I try to diversify as best I can by having low cost stocks.
